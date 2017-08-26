@@ -8,3 +8,9 @@ for (int i = 0; i < vector.size(); ++i)
 }
 
 file.close();
+
+if ( ! file )
+{
+    //  Error handling.  Most important, do _not_ return 0 from
+    //  main, but EXIT_FAILUREl.
+}
