@@ -1,0 +1,5 @@
+<!-- Set parameters -->
+<param name="detect_corners" value="true"/>
+
+<!-- Include launch files in other launch files -->
+<include file="$(find adaptive_corner_detection)/launch/corner.launch"/>
